@@ -41,7 +41,7 @@ npm run start
 - Then, open <strong>`Postman`</strong>:
 
 ```js
-do action POST for API: localhost:5375/vote
+do action POST for API: localhost:5675/vote
 with body of 
 <pre>
   {
@@ -50,7 +50,7 @@ with body of
     "team": "vue"
   }
 </pre>
-do action GET for API: localhost:5375/votes
+do action GET for API: localhost:5675/votes
 ```
 
 
