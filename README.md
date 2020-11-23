@@ -25,8 +25,6 @@ brew services start mongodb-community
 ```js
 show dbs // show all existing databases
 use votedb // `votes` is the database name we want to define
-show collections // right now should be empty because we haven't create table and data yet
-// then use `insertOne` to create your first mock mongodb record
 db.votes.find() // after created, you can find the record you just created
 ```
 
@@ -40,11 +38,11 @@ or
 npm run start
 ```
 
-- Then, open Postman:
+- Then, open <strong>`Postman`</strong>:
 
 ```js
 do action POST for API: localhost:5375/vote
-witg body of 
+with body of 
 <pre>
   {
     "ipAddr": "0.1.1.1",
